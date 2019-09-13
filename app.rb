@@ -17,3 +17,8 @@ class App < Sinatra::Base
     erb :'favorite-song/index.html.erb'
   end 
 end
+
+  get '/hometown' do 
+    "My hometown is Houston"
+    erb :'hometown/index.html.erb'
+  end
